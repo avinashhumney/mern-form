@@ -1,0 +1,25 @@
+{
+  "name": "mern-form",
+  "version": "1.0.0",
+  "description": "A form that submits the information to sql",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Avinash Humney",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
